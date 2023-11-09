@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #48 - Ai Image Generator | AsmrProg</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>AI圖片生成器</h1>
+        <p>寫出一個你要AI生成的圖片的簡述.</p>
+        <form class="gen-form">
+            <input type="text" id="user-prompt" , placeholder="輸入簡短的文字..." autocomplete="off">
+            <button type="button" id="generate">生成</button>
+        </form>
+
+        <div class="result">
+            <div id="loading">生成中...</div>
+            <div id="image-grid"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
